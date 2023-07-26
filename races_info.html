@@ -16,14 +16,20 @@
   background-position: center;
 
   padding:20px;
+        
+        overflow-x:hidden;
       }
 
       ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #00FFFF;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
 }
 
 li {
@@ -48,6 +54,7 @@ li a {
 
       h1 {
   margin:10px;
+        margin-top:40px;
   padding:15px;
   background-color:white;
   max-width:30%;
@@ -57,8 +64,11 @@ li a {
       .p {
         background-color:white;
         margin-left:50px;
+        margin-right:50px;
         padding:20px;
         border-radius:5px;
+        max-width:95%;
+        max-height:300px;
       }
 
       .footer {
@@ -73,11 +83,46 @@ li a {
         color:black;
       }
 
-      
+
+      h3 {
+        margin:auto;
+  padding:15px;
+  background-color:white;
+  max-width:30%;
+  border-radius:20px;
+        text-align:center;
+}
 
 li a:hover {
   background-color: #7ca2a7;
 }
+      
+      .grid-container {
+  display: grid;
+  gap: 10px;
+        padding:10px;
+        grid-template-columns:auto auto auto;
+        margin:auto;
+        max-width:90%;
+}
+      
+      .grid-item {
+        background-color:white;
+        padding:20px;
+        border-radius:5px;
+        max-width:100%;
+        overflow:fit
+      }
+     
+      img {
+        max-width:100%;
+        
+      }
+      
+      hr {
+        max-width:90%;
+        margin:auto;
+      }
       
     </style>
   </head>
@@ -90,10 +135,47 @@ li a:hover {
         <li><a href="about.html">About</a></li>
       </ul>
     <h1>Races</h1>
-    <p class="p">Some more words...<br></p>
+    <p class="p" style="text-indent:20px;">The world of Riowyn has many races, which can be hard to keep track of as a creator. That's what this list is for- to help you better understand our world!<br><br> Below you will find the masterlist of races which will lead to more detailed overviews of each.</p>
+    
+    <hr>
+    <br>
+    <div class="grid-container">
+      <div class="grid-item">
+        <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+        <p style="font-size:30px">Human</p>
+      <div>
+        <a href="#"><img style="width:30%" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80"></a>
+        <p style="float:right">Mageborn</p>
+        </div>
+      </div>
+    <div class="grid-item">
+      <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+      2</div>
+  <div class="grid-item">
+    <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+    3</div>
+      <div class="grid-item">
+        <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+        4</div>
+      
+      <div class="grid-item">
+        <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+        5</div>
+      
+      <div class="grid-item">
+        <a href="#"><img style="width:40%; margin-right:20px; float:left;" src="https://images.unsplash.com/photo-1446071103084-c257b5f70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=684&q=80"></a>
+        6</div>
+    </div>  
+  
+    <hr>
+    <br>
+    <hr>
     
     <div class="footer">
-      <p style="opacity:0.6;"><span style="float:left;">I'm hosted with GitHub Pages.</span><span style="float:right">RiowynMC</span></p>
+      <p style="opacity:0.6;"><span style="float:left;">I'm hosted with GitHub Pages.</span><span style="float:right; margin-right:20px;">RiowynMC</span></p>
     </div>
+    <hr>
+    <br>
+    <hr>
   </body>
 </html>
