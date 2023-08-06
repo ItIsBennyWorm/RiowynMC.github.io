@@ -21,7 +21,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #00FFFF;
+  background-color: #648060;
   position:fixed;
   top:0px;
   left:0px;
@@ -42,7 +42,7 @@ li p {
       
 li a {
   display: block;
-  color: #4d6173;
+  color: #1E261D;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -52,13 +52,13 @@ li a {
   margin:10px;
         margin-top:40px;
   padding:15px;
-  background-color:white;
+  background-color:#FBFAE9;
   max-width:30%;
   border-radius: 5px 80px 5px 2px;
 }
 
       .card {
-        background-color:white;
+        background-color:#FBFAE9;
         margin-left:50px;
         margin-right:50px;
         margin-top:10px;
@@ -82,14 +82,14 @@ li a {
       .fancycard3 {
         margin:auto;
   padding:15px;
-  background-color:white;
+  background-color:#FBFAE9;
   max-width:30%;
   border-radius:20px;
         text-align:center;
 }
 
 li a:hover {
-  background-color: #7ca2a7;
+  background-color: #82A380;
 }
       
       .grid-container {
@@ -103,7 +103,7 @@ li a:hover {
 }
       
       .grid-item {
-        background-color:white;
+        background-color:#FBFAE9;
         padding:20px;
         border-radius:5px;
         max-width:100%;
@@ -134,7 +134,7 @@ p {
 }
 
 .indentcard {
-  background-color:white;
+  background-color:#FBFAE9;
         margin-left:100px;
         margin-right:100px;
         margin-top:10px;
@@ -160,8 +160,8 @@ td {
         max-width:90%;
 }
       
-      .grid-item1 {
-        background-color:white;
+      .grid-item {
+        background-color:#FBFAE9;
         padding:20px;
         border-radius:5px;
         max-width:100%;
