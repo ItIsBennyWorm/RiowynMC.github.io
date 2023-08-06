@@ -1,0 +1,119 @@
+body {
+        position:absolute;top:0;bottom:0;left:0;width:100%;z-index:-1;
+
+  background-color: #000000;
+
+  background-image: url('https://images.unsplash.com/photo-1624997983041-5eb0a6bf2b2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+  background-position: center;
+
+  padding:20px;
+        
+        overflow-x:hidden;
+      }
+
+      .fancycard1 {
+  margin:10px;
+        margin-top:40px;
+  padding:15px;
+  background-color:white;
+  max-width:30%;
+  border-radius: 5px 80px 5px 2px;
+}
+
+      .card {
+        background-color:white;
+        margin-left:50px;
+        margin-right:50px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:20px;
+        border-radius:5px;
+        max-width:95%;
+      }
+
+      .footer {
+        background-color:white;
+        padding:10px;
+        bottom:0;left:0;
+        width:100%;
+        text-align:center;
+        position:fixed;
+        color:black;
+      }
+
+
+      .fancycard3 {
+        margin:auto;
+  padding:15px;
+  background-color:white;
+  max-width:30%;
+  border-radius:20px;
+        text-align:center;
+}
+
+li a:hover {
+  background-color: #7ca2a7;
+}
+      
+      .grid-container {
+  display: grid;
+  gap: 10px;
+        padding:10px;
+        grid-template-columns:auto auto auto auto;
+              grid-template-rows:auto;
+        margin:auto;
+        max-width:90%;
+}
+      
+      .grid-item {
+        background-color:white;
+        padding:20px;
+        border-radius:5px;
+        max-width:100%;
+        overflow:fit
+      }
+     
+      img {
+        max-width:100%;
+        
+      }
+      
+      hr {
+        max-width:90%;
+        margin:auto;
+      }
+
+.hscroll {
+        overflow-x:scroll;
+}
+
+.scroll {
+        overflow-y:scroll;
+}
+
+p {
+  padding:0px;
+  margin:0px;
+}
+
+.indentcard {
+  background-color:white;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:20px;
+        border-radius:5px;
+        max-width:95%;
+}
+
+td {
+  width:50%;
+  padding-left:10px;
+  padding-right:10px;
+}
