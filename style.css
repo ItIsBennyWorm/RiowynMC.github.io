@@ -62,11 +62,10 @@ li a {
         margin-left:50px;
         margin-right:50px;
         margin-top:10px;
-        margin-bottome:10px;
+        margin-bottom:10px;
         padding:20px;
         border-radius:5px;
         max-width:95%;
-        max-height:300px;
       }
 
       .footer {
@@ -132,4 +131,22 @@ li a:hover {
 p {
   padding:0px;
   margin:0px;
+}
+
+.indentcard {
+  background-color:white;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:20px;
+        border-radius:5px;
+        max-width:95%;
+        max-height:300px;
+}
+
+td {
+  width:50%;
+  padding-left:10px;
+  padding-right:10px;
 }
