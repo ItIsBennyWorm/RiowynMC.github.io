@@ -71,9 +71,7 @@ li a {
 
       .footer {
         background-color:white;
-        padding-bottom:10px;
-        padding-left:10px;
-        padding-right:10px;
+        padding:10px;
         bottom:0;left:0;
         width:100%;
         text-align:center;
